@@ -34,8 +34,8 @@ govalidator.LoadValidate(validate)
 
 ## 配合多语言实现
 
-- [国际化组件](github.com/go-playground/universal-translator "国际化")
-- [gotrans集成国际化组件](github.com/kordar/gotrans)
+- [国际化组件](https://github.com/go-playground/universal-translator "国际化")
+- [gotrans集成国际化组件](https://github.com/kordar/gotrans)
 
 将实现对象注入国际化组件
 
