@@ -9,7 +9,9 @@ var _validate *validator.Validate
 type IValidation interface {
 	Tag() string
 	Valid(fl validator.FieldLevel) bool
-	I18n() (section string, key string)
+	DefaultTpl() (tpl string, override bool)
+	Tpl() (section string, key string)
+	I18n(fe validator.FieldError, locale string) []string
 }
 
 func LoadValidate(valid *validator.Validate) {
